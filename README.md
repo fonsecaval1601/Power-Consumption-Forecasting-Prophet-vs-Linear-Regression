@@ -142,18 +142,3 @@ The forecasting models enable:
 3. **Anomaly Detection:** Identify unusual consumption patterns in real-time
 4. **Scalable Deployment:** Containerize models for production use
 
-## 📁 Project Structure
-project/
-- 11_time_series_project.ipynb
-- data/
-  - powerconsumption.csv
-  - cleaned_data.csv
-- models/
-  - linear_regression_model.pkl
-  - prophet_model.json
-- outputs/
-  - linear_regression_forecast.png
-  - prophet_forecast.png
-  - model_comparison.png
-- requirements.txt
-- README.md
