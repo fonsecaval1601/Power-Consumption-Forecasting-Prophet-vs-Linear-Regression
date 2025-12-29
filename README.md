@@ -4,7 +4,7 @@
 
 # Power-Consumption-Forecasting-Prophet-vs-Linear-Regression
 # ⚡ Electricity Consumption Time Series Forecasting Project
-## 📈 Comparative Analysis of Linear Regression vs. Facebook Prophet
+## Comparative Analysis of Linear Regression vs. Facebook Prophet
 ### A Time Series Analysis & Forecasting Case Study
 
 ## 🎯 Project Overview
@@ -77,7 +77,7 @@ Both models were evaluated using industry-standard time series metrics:
 
 ### 🔍 Exploratory Analysis Insights
 **Sample Visualization:**
-![Time Series Decomposition](./images/decomposition_plot.png)
+![Time Series Decomposition](./images/decompose.PNG)
 
 **Key Patterns Identified:**
 - Clear daily consumption cycles with peaks in morning and evening
@@ -94,7 +94,13 @@ Both models were evaluated using industry-standard time series metrics:
 | Facebook Prophet | 987 kWh | 3.1% | 2.3s | Medium |
 
 #### **Visual Comparison:**
-![Predicted vs Actual Comparison](./images/predicted_vs_actual.png)
+![Predicted vs Actual Comparison](./images/linear_regression.PNG)
+
+#### **Linear Regression:**
+
+![Predicted vs Actual Comparison](./images/prophet_model.PNG)
+
+#### **Prophet Facebook:**
 
 #### **Key Findings:**
 1. **Facebook Prophet** outperformed Linear Regression in both MAE and MAPE
